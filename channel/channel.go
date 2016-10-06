@@ -18,17 +18,17 @@ Send sends a message to the client over the channel identified by clientID.
 
 	channel.Send(c, "player1", "Game over!")
 */
-package channel // import "google.golang.org/appengine/channel"
+package channel // import "github.com/adams-sarah/appengine/channel"
 
 import (
 	"encoding/json"
 
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal"
-	basepb "google.golang.org/appengine/internal/base"
-	pb "google.golang.org/appengine/internal/channel"
+	"github.com/adams-sarah/appengine"
+	"github.com/adams-sarah/appengine/internal"
+	basepb "github.com/adams-sarah/appengine/internal/base"
+	pb "github.com/adams-sarah/appengine/internal/channel"
 )
 
 // Create creates a channel and returns a token for use by the client.

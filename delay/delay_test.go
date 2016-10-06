@@ -17,8 +17,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine/internal"
-	"google.golang.org/appengine/taskqueue"
+	"github.com/adams-sarah/appengine/internal"
+	"github.com/adams-sarah/appengine/taskqueue"
 )
 
 type CustomType struct {

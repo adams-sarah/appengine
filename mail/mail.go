@@ -17,7 +17,7 @@ Example:
 		log.Errorf(c, "Alas, my user, the email failed to sendeth: %v", err)
 	}
 */
-package mail // import "google.golang.org/appengine/mail"
+package mail // import "github.com/adams-sarah/appengine/mail"
 
 import (
 	"net/mail"
@@ -25,9 +25,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine/internal"
-	bpb "google.golang.org/appengine/internal/base"
-	pb "google.golang.org/appengine/internal/mail"
+	"github.com/adams-sarah/appengine/internal"
+	bpb "github.com/adams-sarah/appengine/internal/base"
+	pb "github.com/adams-sarah/appengine/internal/mail"
 )
 
 // A Message represents an email message.

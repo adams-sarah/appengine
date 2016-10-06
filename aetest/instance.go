@@ -4,8 +4,8 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/adams-sarah/appengine"
 	"golang.org/x/net/context"
-	"google.golang.org/appengine"
 )
 
 // Instance represents a running instance of the development API Server.

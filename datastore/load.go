@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/adams-sarah/appengine"
+	pb "github.com/adams-sarah/appengine/internal/datastore"
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/appengine"
-	pb "google.golang.org/appengine/internal/datastore"
 )
 
 var (

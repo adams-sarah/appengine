@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine/internal"
+	"github.com/adams-sarah/appengine/internal"
 )
 
 func TestKeyEncoding(t *testing.T) {

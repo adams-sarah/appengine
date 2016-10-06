@@ -23,8 +23,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/remote_api"
+	"github.com/adams-sarah/appengine/internal"
+	pb "github.com/adams-sarah/appengine/internal/remote_api"
 )
 
 // NewRemoteContext returns a context that gives access to the production

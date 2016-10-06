@@ -13,8 +13,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"google.golang.org/appengine"
-	pb "google.golang.org/appengine/internal/datastore"
+	"github.com/adams-sarah/appengine"
+	pb "github.com/adams-sarah/appengine/internal/datastore"
 )
 
 func toUnixMicro(t time.Time) int64 {

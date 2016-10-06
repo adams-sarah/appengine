@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package user provides a client for App Engine's user authentication service.
-package user // import "google.golang.org/appengine/user"
+package user // import "github.com/adams-sarah/appengine/user"
 
 import (
 	"strings"
@@ -11,8 +11,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/user"
+	"github.com/adams-sarah/appengine/internal"
+	pb "github.com/adams-sarah/appengine/internal/user"
 )
 
 // User represents a user of the application.

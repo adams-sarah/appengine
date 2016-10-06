@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal/aetesting"
-	pb "google.golang.org/appengine/internal/datastore"
+	"github.com/adams-sarah/appengine"
+	"github.com/adams-sarah/appengine/internal/aetesting"
+	pb "github.com/adams-sarah/appengine/internal/datastore"
 )
 
 const testAppID = "testApp"

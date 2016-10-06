@@ -7,8 +7,8 @@ package user
 import (
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/user"
+	"github.com/adams-sarah/appengine/internal"
+	pb "github.com/adams-sarah/appengine/internal/user"
 )
 
 // CurrentOAuth returns the user associated with the OAuth consumer making this

@@ -6,7 +6,7 @@
 Package remote_api implements the /_ah/remote_api endpoint.
 This endpoint is used by offline tools such as the bulk loader.
 */
-package remote_api // import "google.golang.org/appengine/remote_api"
+package remote_api // import "github.com/adams-sarah/appengine/remote_api"
 
 import (
 	"fmt"
@@ -17,11 +17,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/remote_api"
-	"google.golang.org/appengine/log"
-	"google.golang.org/appengine/user"
+	"github.com/adams-sarah/appengine"
+	"github.com/adams-sarah/appengine/internal"
+	pb "github.com/adams-sarah/appengine/internal/remote_api"
+	"github.com/adams-sarah/appengine/log"
+	"github.com/adams-sarah/appengine/user"
 )
 
 func init() {

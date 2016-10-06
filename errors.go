@@ -9,7 +9,7 @@ package appengine
 import (
 	"fmt"
 
-	"google.golang.org/appengine/internal"
+	"github.com/adams-sarah/appengine/internal"
 )
 
 // IsOverQuota reports whether err represents an API call failure

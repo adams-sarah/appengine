@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/datastore"
+	"github.com/adams-sarah/appengine/internal"
+	pb "github.com/adams-sarah/appengine/internal/datastore"
 )
 
 func init() {

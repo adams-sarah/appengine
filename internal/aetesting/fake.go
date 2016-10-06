@@ -15,7 +15,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine/internal"
+	"github.com/adams-sarah/appengine/internal"
 )
 
 // FakeSingleContext returns a context whose Call invocations will be serviced

@@ -4,7 +4,7 @@
 
 // Package urlfetch provides an http.RoundTripper implementation
 // for fetching URLs via App Engine's urlfetch service.
-package urlfetch // import "google.golang.org/appengine/urlfetch"
+package urlfetch // import "github.com/adams-sarah/appengine/urlfetch"
 
 import (
 	"errors"
@@ -20,8 +20,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/urlfetch"
+	"github.com/adams-sarah/appengine/internal"
+	pb "github.com/adams-sarah/appengine/internal/urlfetch"
 )
 
 // Transport is an implementation of http.RoundTripper for

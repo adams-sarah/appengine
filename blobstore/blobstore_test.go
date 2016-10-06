@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal/aetesting"
+	"github.com/adams-sarah/appengine"
+	"github.com/adams-sarah/appengine/internal/aetesting"
 
-	pb "google.golang.org/appengine/internal/blobstore"
+	pb "github.com/adams-sarah/appengine/internal/blobstore"
 )
 
 const rbs = readBufferSize

@@ -54,7 +54,7 @@ package taskqueue
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import appengine "google.golang.org/appengine/internal/datastore"
+import appengine "github.com/adams-sarah/appengine/internal/datastore"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

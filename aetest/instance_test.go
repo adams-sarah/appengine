@@ -4,10 +4,10 @@ import (
 	"os"
 	"testing"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/memcache"
-	"google.golang.org/appengine/user"
+	"github.com/adams-sarah/appengine"
+	"github.com/adams-sarah/appengine/datastore"
+	"github.com/adams-sarah/appengine/memcache"
+	"github.com/adams-sarah/appengine/user"
 )
 
 func TestBasicAPICalls(t *testing.T) {

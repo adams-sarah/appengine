@@ -12,8 +12,8 @@ import (
 	"net/http"
 	"time"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/log"
+	"github.com/adams-sarah/appengine"
+	"github.com/adams-sarah/appengine/log"
 )
 
 var initTime = time.Now()

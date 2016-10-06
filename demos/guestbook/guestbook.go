@@ -14,10 +14,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/log"
-	"google.golang.org/appengine/user"
+	"github.com/adams-sarah/appengine"
+	"github.com/adams-sarah/appengine/datastore"
+	"github.com/adams-sarah/appengine/log"
+	"github.com/adams-sarah/appengine/user"
 )
 
 var initTime time.Time

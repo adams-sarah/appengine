@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"testing"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal"
-	"google.golang.org/appengine/internal/aetesting"
-	pb "google.golang.org/appengine/internal/taskqueue"
+	"github.com/adams-sarah/appengine"
+	"github.com/adams-sarah/appengine/internal"
+	"github.com/adams-sarah/appengine/internal/aetesting"
+	pb "github.com/adams-sarah/appengine/internal/taskqueue"
 )
 
 func TestAddErrors(t *testing.T) {
